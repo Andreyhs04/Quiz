@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;}
+img{
+    width: 100%;
+    height: auto;}
+a{
+    text-decoration: none;}
+/* *** */
+h1{
+    font: 600 35px arial,sans-serif;
+    color: white;
+    background-color: #000;
+    opacity: 0.6;
+    border: #000 2px solid;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;}
+.caixa{
+    background-color: #000;
+    opacity: 0.6;
+    color: #fff;
+    height: 65vh;
+    width: 55vw;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;}
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom left, rgb(213, 213, 5), rgb(234, 129, 146));}
+#pergunta,
+.feedback{
+    font: 400 25px arial,sans-serif;}
+button{
+    font: 300 20px arial,sans-serif;
+    width: 300px;
+    height: auto;
+    border: #fff 10px solid;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px;
+    cursor: pointer;}
+.answerButtons{
+    display: flex;
+    width: 70%;
+    flex-wrap:  wrap;
+    justify-content: center;
+    align-items: center;}
+@keyframes btn {
+    0%{
+        background-color: #fff;
+        color: #000;
+    }
+    100%{
+        background-color: black;
+        color: #fff;
+        border: #000;
+    }}
+button:hover{
+    animation-name: btn;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;}
+.feedback{
+    color:red}
+#carrosselImagem{
+    width: 350px;}
+
